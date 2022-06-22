@@ -21,3 +21,9 @@ const allWagesFor = function () {
     return payable
 }
 
+const findEmployeeByFirstName = function(srcArray, firstName) {
+    return srcArray.find(function(rec) {
+        return rec.firstName == firstName
+    })
+}
+
